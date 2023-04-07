@@ -5,7 +5,7 @@
 }
 body{
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
     width: fit-content;
     background-color: #0f1b31;
     position: relative;
@@ -703,7 +703,7 @@ border: none;
     margin-top: 70px;
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
     nav {
       flex-direction: column;
       align-items: center;
@@ -717,7 +717,7 @@ border: none;
       justify-content: center;
       height: auto;
     }
-  }
+  } */
   
   @media only screen and (max-width: 500px) {
     .contact {
@@ -741,6 +741,10 @@ border: none;
       /* margin: 0; */
       text-align: center;
       float: none;
+    }
+
+    .form-desc p{
+      text-align: justify;
     }
   
     .contact-form {
@@ -768,10 +772,7 @@ border: none;
       color: #dbcfcf;
       border: none;
       }
-  }
-  
 
-  @media only screen and (max-width: 500px) {
     .skills {
       height: auto;
       padding-top: 50px;
@@ -816,9 +817,7 @@ border: none;
     .projects p{
       margin-left: 15px;
     }
-  }
   
-  @media only screen and (max-width: 500px) {
     .about {
     height: auto;
     padding: 50px 0;
@@ -851,9 +850,7 @@ border: none;
     .about-bio-content {
     font-size: 18px;
     }
-    }
-
-    @media (max-width: 500px) {
+    
         .hero{
           height: 600px;
           background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/bg-images/bg-final.webp);
@@ -887,10 +884,4 @@ border: none;
           height: 0px;
         }
       }
-      hr{
-        margin-top: 20px;
-        margin-left: 47%;
-        width: 30px;
-       border: 2px solid rgb(0, 255, 166);
-       border-radius: 15%;
-      }
+      
