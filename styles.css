@@ -634,13 +634,6 @@ border: none;
     flex-wrap: wrap;
 }
 
-
-.social-links{
-
-    /* border:1px solid red; */
-}
-
-
 .social-links{
     color: white;
     display: flex;
