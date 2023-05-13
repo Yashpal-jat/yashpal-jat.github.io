@@ -79,7 +79,7 @@ a {
 .header .logo:hover{
   color: rgb(45, 160, 137);
 }
-/* menu */
+
 
 .header .menu {
   clear: both;
@@ -87,7 +87,6 @@ a {
   transition: max-height .2s ease-out;
 }
 
-/* menu icon */
 
 .header .menu-icon {
   cursor: pointer;
@@ -126,7 +125,6 @@ a {
   top: -5px;
 }
 
-/* menu btn */
 
 .header .menu-btn {
   display: none;
@@ -153,7 +151,6 @@ a {
   top: 0;
 }
 
-/* 48em = 768px */
 
 @media (min-width: 48em) {
   .header li {
