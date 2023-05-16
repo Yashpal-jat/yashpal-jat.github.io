@@ -6,9 +6,10 @@
 body{
     margin: 0;
     padding: 0;
-    width: fit-content;
+    overflow-x: hidden;
+    /* width: fit-content; */
     background-color: #0f1b31;
-    position: relative;
+    /* position: relative; */
 }
 
 div{
@@ -74,6 +75,13 @@ a {
   font-family: "poppins", sans-serif;
   font-weight: 600;
   letter-spacing: 2px;
+}
+
+.profile-pic{
+  height: 40px; 
+  width: 40px; 
+  margin-top: 10px;
+  margin-left: 40px;
 }
 
 .header .logo:hover{
@@ -653,6 +661,25 @@ border: none;
   } */
   
   @media only screen and (max-width: 500px) {
+
+    body{
+      overflow-x: hidden;
+    }
+
+    .header .logo{
+      font-size: 25px;
+      padding: 17px 15px;
+      margin-left: 50px;
+    }
+
+    .profile-pic{
+      height: 35px;
+      width: 35px;
+      margin-top: 16px;
+      margin-left: 20px;
+    }
+  
+    
     .contact {
       height: auto;
     }
@@ -664,7 +691,7 @@ border: none;
   
     .contact-desc {
       margin-top: 50px;
-      margin-left: 10px;
+      margin-left: -70px;
     }
   
     .form-desc {
@@ -683,7 +710,7 @@ border: none;
     .contact-form {
       height: auto;
       width: 40%;
-      margin: 50px 0 30px 190px;
+      margin: 50px 0 30px 170px;
     }
   
     .row {
@@ -693,7 +720,7 @@ border: none;
 
     .button{
       margin-top: 10px;
-      margin-left: -70px;
+      margin-left: -100px;
     }
 
     .btn:hover{
@@ -739,7 +766,11 @@ border: none;
 
     .other-skills {
       width: 80%;
-      /* margin: 30px auto 0 auto; */
+      margin: 20px auto 0 auto;
+    }
+
+    .projects{
+      height: 270px;
     }
 
     .projects h6{
@@ -749,6 +780,7 @@ border: none;
 
     .projects p{
       margin-left: 15px;
+      font-size: 50px;
     }
   
     .about {
@@ -816,5 +848,5 @@ border: none;
         .gap{
           height: 0px;
         }
-      }
+      }      
       
